@@ -1,0 +1,98 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe6ef);
+  display: flex; justify-content: center; align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  max-width: 600px; width: 90%;
+  padding: 30px; border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+h1 { color: #e91e63; margin-bottom: 20px; }
+.chapter h2 { color: #ad1457; font-size: 1.6em; margin-bottom: 10px; }
+.chapter p { font-style: italic; margin-bottom: 20px; }
+#question { font-weight: bold; margin-bottom: 15px; }
+
+.answer {
+  display: block; width: 100%;
+  background: #f8bbd0; color: #333;
+  padding: 12px; margin: 8px 0;
+  border: none; border-radius: 8px;
+  cursor: pointer; font-size: 1em;
+  transition: background 0.3s;
+}
+
+.answer:hover:not(:disabled) { background: #f48fb1; }
+.answer:disabled { opacity: 0.6; }
+
+#next-btn, #retry-btn {
+  background: #ec407a; color: white;
+  padding: 10px 20px; border: none;
+  border-radius: 25px; font-size: 1em;
+  cursor: pointer; margin-top: 10px;
+}
+
+#retry-btn { background: #e53935; }
+
+.hidden { display: none; }
+
+.gift-box {
+  background-color: #ffe6f0;
+  border: 2px dashed #e91e63;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.gift-box h3 { color: #d81b60; margin-bottom: 10px; }
+.gift-box p { font-size: 1.1em; color: #444; }
+
+.gift-link {
+  display: block;
+  padding: 15px 35px;
+  background: #e91e63;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  margin: 20px auto 0 auto;
+}
+
+.gift-link:hover {
+  background: #ad1457;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.final-message {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+#hearts {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#confetti-canvas {
+  position: fixed; top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}

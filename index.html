@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>6 Anos ao Seu Lado 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>6 Anos ao Seu Lado 💘</h1>
+    <div id="story">
+      <div class="chapter">
+        <h2 id="chapter-title"></h2>
+        <p id="chapter-text"></p>
+      </div>
+      <div id="question-block">
+        <p id="question"></p>
+        <div id="answers"></div>
+        <button id="next-btn" onclick="nextChapter()">Próximo</button>
+        <button id="retry-btn" class="hidden" onclick="retryChapter()">Tentar novamente</button>
+      </div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Você completou nossa história com perfeição! 🥰</h2>
+      <div id="typed-text" class="final-message"></div>
+
+      <div class="gift-box">
+        <h3>🌄 Viagem Romântica na Chapada dos Veadeiros 🌄</h3>
+        <p>Um final de semana especial, só nós dois, com direito a jantar romântico e hospedagem perfeita no nosso Airbnb 😍</p>
+        <a href="https://www.link-do-airbnb.com" target="_blank" class="gift-link">Ver detalhes da viagem</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="hearts"></div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1/tsparticles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
