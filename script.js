@@ -20,6 +20,13 @@ const chapters = [
   answers: ["WhatsApp", "No show da Pitty", "Twitter", "Pessoalmente"],
   correct: 2
 },
+{ 
+  title: "O Nosso Começo Oficial", 
+  text: "Sempre brincamos , por um tempo, dizendo que nós não sabiamos a data exata que começamos a namorar. e decidimos que seria no dia 24. Mas depois de relembrar, confirmar e revisar, ficou gravado na memória e no coração: o nosso dia especial!", 
+  question: "Qual foi o dia que começamos a namorar oficialmente (Eu fui atrás e descobri o dia exato! kkkkk😅)?", 
+  answers: ["27 de setembro", "18 de setembro", "24 de setembro", "25 de setembro"], 
+  correct: 2 
+},
 {
   title: "A Viagem Que Sonhamos e Fizemos",
   text: "O tempo foi passando e colecionei momentos incríveis ao seu lado. Como a nossa primeira viagem de casal, à Chapada dos Veadeiros — um lugar mágico, cheio de trilhas, natureza e amor. E teve aquela noite especial… um jantar maravilhoso, clima perfeito. Sempre lembro disso com carinho.",
@@ -28,39 +35,40 @@ const chapters = [
   correct: 3
 },
 {
-  title: "O Jeito Mais Nosso de Ser",
-  text: "Adoramos ficar deitados, no maior conforto e fofocando… nossa intimidade é única.",
-  question: "O que mais gostamos de fazer juntos no dia a dia?",
-  answers: ["Sair pra dançar", "Fazer trilha", "Fofocar e ficar deitados", "Estudar juntos"],
-  correct: 2 
-  },
-{ 
-  title: "Risos, Hamburguer e Liberdade",
-  text: "Hambúrguer, passeios, compras… simples e perfeito com você.",
-  question: "Qual desses programas é a nossa cara?",
-  answers: ["Ir pra balada", "Comer hambúrguer e passear", "Ir ao teatro", "Maratonar séries de terror"],
-  correct: 1 
-},
-{ 
-  title: "Superando Juntos",
-  text: "Faculdade, trabalho, correria… seguimos firmes, juntos, construindo o nosso futuro.",
-  question: "Qual desafio enfrentamos juntos com força e amor?",
-  answers: ["Ficar longe um do outro", "Concluir a escola", "Rotina de estudos e trabalho", "Enfrentar um intercâmbio"],
-  correct: 2 
+  title: "O Nosso Jeito Único de Amar",
+  text: "Com o tempo, fomos criando o nosso próprio jeitinho de viver a relação. Longe de redes sociais, sem precisar mostrar nada pra ninguém, só nós dois, no nosso cantinho, rindo das fofocas do dia, dividindo confidências e curtindo o simples prazer de estarmos juntos. 💕",
+  question: "O que virou o nosso ritual preferido nesses anos todos?",
+  answers: ["Postar momentos no Instagram", "Viajar o tempo todo", "Ficar deitados, conversando sobre tudo e rindo das nossas fofocas", "Sair com a galera toda semana"
+  ],
+  correct: 2
 },
 {
-  title: "Nosso Lar dos Sonhos",
-  text: "Casa com quintal, um golden retriever, e uma cozinha incrível pra suas receitas — e a geladeira dos seus sonhos.",
-  question: "Como é o lar que sonhamos?",
-  answers: ["Apartamento pequeno", "Casa com quintal e golden retriever", "Cobertura luxuosa", "Motorhome"],
-  correct: 1 
+  title: "Os Nossos Programinhas Preferidos",
+  text: "Viajar é maravilhoso, mas nem sempre dá. E aí, no dia a dia, o que a gente mais ama é sair pra comer aquele hambúrguer gostoso e depois andar pelo shopping, conversar à toa, olhar vitrines e rir de bobagens. É no simples que a gente constrói tanta memória boa. 🍔🛍️❤️",
+  question: "Qual é o nosso programa mais frequente (e que nunca enjoamos)?",
+  answers: ["Ir para baladas agitadas", "Comer hambúrguer e andar atoa no shopping", "Ir ao teatro todo mês", "Ficar só em casa maratonando séries de terror"],
+  correct: 1
 },
-{ 
-  title: "Daqui a 10 Anos",
-  text: "Te vejo: nutricionista, eu programador. Estáveis, felizes, com sonhos se realizando… nossa história continua!",
-  question: "Como você imagina nosso futuro?",
-  answers: ["Ricos e famosos", "Cuidando de um sítio", "Estáveis, com nossas carreiras e sonhos", "Morando fora do país"],
-  correct: 2 
+{
+  title: "Nosso Agora: Amor na Rotina Corrida",
+  text: "Hoje vivemos um desafio novo: você finalizando a faculdade, com TCC e estágios; eu começando a minha carreira, cheio de aprendizados e responsabilidades. Nem sempre temos tempo, mas mesmo na correria, seguimos juntos, apoiando um ao outro, firmes no nosso propósito. 💪❤️",
+  question: "O que representa melhor o desafio dessa fase atual?",
+  answers: ["Conseguir conciliar nossos sonhos em meio à rotina puxada", "Aprender a morar em cidades diferentes", "Superar as dificuldades financeiras da adolescência", "Nos adaptarmos a um intercâmbio distante"],
+  correct: 0
+},
+{
+  title: "Próximos Passos: O Ano Que Vem",
+  text: "Depois de tantos desafios, o próximo ano promete ser especial: você com a faculdade concluída, eu com a carreira um pouco mais estabilizada, e finalmente teremos mais tempo para fazer o que amamos: viajar, conhecer lugares novos e colecionar ainda mais memórias incríveis juntos. 🌎✨",
+  question: "Qual é um dos nossos principais planos para o próximo ano?",
+  answers: ["Viajar o máximo que conseguirmos, incluindo nosso sonho de ir ao Chile", "Focar totalmente em novos cursos e estudos", "Fazer uma longa viagem de intercâmbio", "Morar um tempo fora do país" ],
+  correct: 0
+},
+{
+  title: "O Nosso Futuro: Construindo o Sonho",
+  text: "Sonhamos com uma vida tranquila e feliz: nossa casa com um quintal enorme, um golden correndo pelo jardim, aquela cozinha incrível com a geladeira que você tanto quer, um carro confortável na garagem e, quem sabe, nossa pequena Elisa iluminando a casa. Casados, realizados e vivendo o que sempre sonhamos. ❤️",
+  question: "Qual é a data que imaginamos para celebrar o nosso casamento?",
+  answers: ["24/09/2027", "24/12/2027", "24/07/2027", "14/02/2027" ],
+  correct: 2
 }
 ];
 
